@@ -1,0 +1,15 @@
+﻿{
+  "name": "烧心题库",
+  "short_name": "烧心题库",
+  "description": "单招复习题库：工程 / 现代服务 / 铁岭 / 地质 / 职业，2288 题",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f8fa",
+  "theme_color": "#58cc02",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
