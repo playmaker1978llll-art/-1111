@@ -1,0 +1,32 @@
+﻿烧心题库 · 部署到 GitHub Pages（手机就能随时打开）
+
+一、建仓库
+  1. 电脑浏览器打开 https://github.com/new
+  2. Repository name 填：shaoxin-tiku（或你喜欢的名字，只能字母数字和横线）
+  3. 选 Public（免费 Pages 必须公开）
+  4. 不要勾 README / .gitignore / license
+  5. 点 Create repository
+
+二、上传文件
+  1. 新仓库页面点「uploading an existing file」链接
+  2. 打开本文件夹，把里面的**全部文件**（含 .nojekyll）拖进网页
+     · 注意：.nojekyll 是隐藏文件，如果拖不进去，先拖其他文件，最后单独用「Add file → Create new file」建一个空文件叫 .nojekyll
+  3. 底部 Commit changes 点一下
+
+三、开启 Pages
+  1. 仓库页面上方 Settings → 左侧 Pages
+  2. Source 选「Deploy from a branch」
+  3. Branch 选 main，目录选 / (root)，点 Save
+  4. 等 1 分钟左右，页面顶部会出现 Your site is live at https://<你的用户名>.github.io/shaoxin-tiku/
+
+四、iPhone 安装
+  1. Safari 打开上面那个 https 地址
+  2. 底部分享按钮 → 添加到主屏幕
+  3. 桌面出现「烧心题库」图标，点开全屏运行；联网过一次后，断网也能打开
+
+五、更新题库
+  以后我给了新版本，只要在仓库里点 Add file → Upload files，把新的 index.html 覆盖上传即可，手机刷新一次就更新。
+
+说明：
+· 这个网址是公开的，任何人拿到链接都能打开（里面没有你的隐私信息）。
+· 第一次打开会自动缓存，之后即使没网也能用。
